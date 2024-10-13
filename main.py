@@ -1,4 +1,5 @@
 import paramiko
+import time
 
 
 def run_commands():
@@ -41,3 +42,5 @@ def run_commands():
 
 if __name__ == '__main__':
     run_commands()
+    print('运行完成，查看上方运行结果，10秒后关闭')
+    time.sleep(10)
