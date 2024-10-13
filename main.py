@@ -11,11 +11,11 @@ def run_commands():
 
     # 定义要执行的命令
     commands = [
-        'ip6tables -F',
-        'ip6tables -X',
-        'ip6tables -P INPUT ACCEPT',
-        'ip6tables -P OUTPUT ACCEPT',
-        'ip6tables -P FORWARD ACCEPT'
+        '/usr/sbin/ip6tables -F',
+        '/usr/sbin/ip6tables -X',
+        '/usr/sbin/ip6tables -P INPUT ACCEPT',
+        '/usr/sbin/ip6tables -P OUTPUT ACCEPT',
+        '/usr/sbin/ip6tables -P FORWARD ACCEPT'
     ]
 
     # 创建 SSH 客户端
